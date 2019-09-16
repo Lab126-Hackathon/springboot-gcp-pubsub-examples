@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "subscriber"
+		},
+		{
+			"name": "subscriber-emulator",
+			"path": "subscriber-emulator"
+		},
+		{
+			"name": "publisher",
+			"path": "publisher"
+		},
+		{
+			"name": "publisher-emulator",
+			"path": "publisher-emulator"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "interactive"
+	}
+}
