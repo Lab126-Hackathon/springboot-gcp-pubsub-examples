@@ -23,3 +23,4 @@ Once you have everything setup, follow the emulator doc by running the following
 - py publisher.py PUBSUB_PROJECT_ID publish TOPIC_ID
 - py subscriber.py PUBSUB_PROJECT_ID receive SUBSCRIPTION_ID
 
+The code has been revised based on the following Google implementation examples: https://github.com/googleapis/google-cloud-java/tree/master/google-cloud-examples/src/main/java/com/google/cloud/examples/pubsub/snippets
