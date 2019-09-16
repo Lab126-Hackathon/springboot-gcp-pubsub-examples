@@ -71,7 +71,7 @@ public class PublisherEmulatorController {
             TopicAdminClient topicClient = TopicAdminClient.create(TopicAdminSettings.newBuilder()
                     .setTransportChannelProvider(channelProvider).setCredentialsProvider(credentialsProvider).build());
 
-            ProjectTopicName topicName = ProjectTopicName.of("cmb-canada-globalhackaton", topicId);
+            ProjectTopicName topicName = ProjectTopicName.of(PROJECT_ID, topicId);
             //ProjectTopicName topicName = ProjectTopicName.of(PROJECT_ID, topicId);
             // Set the channel and credentials provider when creating a `Publisher`.
             // Similarly for Subscriber
