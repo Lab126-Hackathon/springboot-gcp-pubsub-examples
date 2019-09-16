@@ -14,6 +14,9 @@ Once you have everything setup, follow the emulator doc by running the following
 - gcloud components update
 - gcloud beta emulators pubsub start --project=PUBSUB_PROJECT_ID [options]
 - gcloud beta emulators pubsub env-init
+- Set the following environments in Windows:
+    - set PUBSUB_EMULATOR_HOST=localhost:8432
+    - set PUBSUB_PROJECT_ID=my-project-id
 - pip install -r requirements.txt (this is installed from the directory "python-docs-samples\pubsub\cloud-client"
 - py publisher.py PUBSUB_PROJECT_ID create TOPIC_ID
 - py subscriber.py PUBSUB_PROJECT_ID create TOPIC_ID SUBSCRIPTION_ID
