@@ -65,7 +65,6 @@ public class DemoApplication {
 					  
 		//subscription.getName()
 		ProjectSubscriptionName subscriptionName =ProjectSubscriptionName.of(PROJECT_ID, "testSubscription");  
-		//ProjectTopicName topicName = ProjectTopicName.of("cmb-canada-globalhackaton", "testTopic");
 
 		// Set the channel and credentials provider when creating a `Publisher`.  
 		// Similarly for Subscriber
